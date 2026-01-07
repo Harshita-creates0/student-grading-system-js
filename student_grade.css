@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f7fa;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+#main{
+    width: 40%;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+
+    /* CENTER MAGIC */
+    margin: 60px auto;
+}
+
+
+
+/* HEADING */
+#head{
+    background-color: black;
+    color: white;
+    height: 55px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/* LABELS */
+#main label{
+    font-size: 20px;
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+
+/* INPUTS */
+#main input{
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* BUTTONS */
+.btn1,
+.btn2,
+.btn3{
+    border: none;
+    width: 22%;
+    height: 40px;
+    font-size: 18px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin: 40px 10px 0;
+}
+
+
+#head1, #head2, #head3 {
+   display: none;
+}
+#result{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 40px;
+    background-color: transparent;
+}
+
+#total,
+#avg,
+#grade{
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
